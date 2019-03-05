@@ -1,5 +1,2 @@
-<<<<<<< HEAD
 hi welcome to git branching testing hifdgd
-=======
-tes fffdt sdfdf file
->>>>>>> branch2
+tes safsafsafsa fffdt sdfdf file
