@@ -1,0 +1,40 @@
+Java:
+====================
+Collections:List,Set,Map
+I/O:File open,read line by line,append text to file
+Exception Handling: Best Practises
+Java 1.7 new Features
+If possible , Java 1.8 new Features(Lambda Expressions & Streams)
+====================
+Git:
+====================
+Understand git concepts
+Create a new repo
+Checkout repo
+Create branch
+Checkout branch from repo
+how switch between branches
+how to add,modify,delete files
+how to commit changes to repo
+how to push changes
+how to merge branches
+how to resolve conflicts
+==================
+Linux Commands:
+==================
+File Commands(cat,cp,touch,mv,rm)
+Processes Commands(ps and its options)
+how to check what ip using ,which port(tcp/udp)
+scp command
+vi editor
+	-cursor navigation
+	-replace a string in whole file
+	-how to display line numbers in file
+	-how to search with case ignore
+	
+=========================
+Jenkins: just go through
+	
+
+
+

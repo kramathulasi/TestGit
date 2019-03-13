@@ -1,0 +1,52 @@
+Linux Process commands:
+to list open ports and process that owns them
+lsof -i
+
+netstat -tulpn | less
+
+To see which process is bound to port 22
+lsof -i :22
+mysql server running on which port
+lsof -i :3306
+
+killall 
+which
+ping ipaddress
+
+ctrl C to exit the key
+telnet google.com 80
+netstat -a
+netstat -tl
+nslookup google.com
+whois domain address
+dig google.com
+if not registered this command then install
+
+yum search whois 
+
+yum -y install jwhois
+
+FTP:
+--------
+ftp ipaddress/hostname
+
+dir :display files in current directory
+cd dirname
+put file
+get file
+quit
+passive
+
+SSH:
+-----
+ssh username@ipaddress or hostname
+
+Process:
+---------
+ps ux
+pidof chrome
+
+
+
+
+
