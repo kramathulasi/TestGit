@@ -27,7 +27,7 @@ public class SortingNumbersStrings {
 			System.out.println(a[i]);
 		}
 
-		String []nameArray = {"Thulasi","Vineel", "Yashvitha","RamiReddy","Premakumari"};
+		String []nameArray = {"Thulasi","Vineel", "Yashvitha", "Jithin", "RamiReddy","Premakumari"};
 		for(int i=0; i<nameArray.length; i++)
 		{
 			for(int j=i+1; j<nameArray.length; j++)
