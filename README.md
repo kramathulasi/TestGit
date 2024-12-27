@@ -1,5 +1,5 @@
-								Java Microservices Development
-==========================================================================================================
+Java Microservices Development
+==============================
 1. Monolythic Draw backs
 
 2. Microservices Architecture & why
@@ -25,7 +25,7 @@ Application can be developed in 2 ways
 2. Microservices Architecture
 
 1)  Monolithic Architecture: 
-===================================
+============================
 It is a software design pattern where all components of a system are integrated into a single, unified Application.
 
 Challenges:
@@ -40,7 +40,7 @@ Challenges:
 
 
 2. Microservices Architecture:
-======================================
+==============================
 - It is not a frameowrk, technology, language and API
 
 - It is an architectural design pattern
