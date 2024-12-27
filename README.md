@@ -1,5 +1,5 @@
-								**Java Microservices Development**
-
+								Java Microservices Development
+==========================================================================================================
 1. Monolythic Draw backs
 
 2. Microservices Architecture & why
@@ -23,7 +23,7 @@ Application can be developed in 2 ways
 1. Monolithic Architecture
 
 2. Microservices Architecture
-===================================
+
 1)  Monolithic Architecture: 
 ===================================
 It is a software design pattern where all components of a system are integrated into a single, unified Application.
@@ -38,7 +38,7 @@ Challenges:
 
 - Scalability Issues
 
-==================================
+
 2. Microservices Architecture:
 ======================================
 - It is not a frameowrk, technology, language and API
@@ -76,7 +76,7 @@ Challenges With Microservices:
 
 	In microservice architecture we might not get chance to work with all apis in the application.
 
-==================================
+
 Microservices Architecture:
 ====================================
 - There is no fixed architecture for microservices development
@@ -100,7 +100,7 @@ Microservices Architecture:
 7. FeignClient
 
 8. API Gateway
-=========================
+
 Service Registry:
 =========================
 - Service registry is used to maintain all apis information like name, status, url and health at one place.
@@ -134,7 +134,7 @@ Note-2: If service-registry project running on any other port number then we hav
 
 	http://localhost:8761/
 
-========================
+
 Admin Server:
 ========================
 - It is used to monitor and manage all the apis at one place.
@@ -171,7 +171,7 @@ Steps to Develop Spring Admin Server:
 
 	http://localhost:1111/
 
-==========================
+
 ZipKin Server:
 =========================
 - It is used for distributed tracing of our requests
@@ -203,7 +203,7 @@ Java: Download jar file and open command prompt
 
 	URL: http://localhost:9411/
 
-==========================
+
 Config Server:
 ===========================
 - It is used to seperate application code and application properties
@@ -211,7 +211,7 @@ Config Server:
 - It is used to externalize config props of our application
 
 - It makes our application loosely coupled with properties file or yml file
-======================
+
 Feignclient:
 =======================
 - It is used for interservice communication
@@ -219,7 +219,7 @@ Feignclient:
 - If one api communicate with another api with in the same application 
 
 	then it is called as interservice communication
-=================
+
 API Gateway
 ========================
 - It acts as entry point for all backend apis
@@ -232,7 +232,7 @@ API Gateway
 
 	Routings: to forward request to particular backend api
 
-==========================================================================
+
 Welcome Service Microservice Devlopment: Service registration with all servers
 ============================================================================
 1. Create spring boot application with below dependencies
@@ -309,7 +309,7 @@ Ex: Beans, loggers, heap dump, thread dump, metrics, mappings etc....
 
 	It will display trace=id with details.
 
-==============================================================================	
+
 Steps to Develop Greet API: Feign Client for Inter microservices communication
 ==============================================================================
 Interservice communication will be done using below 3 ways.
@@ -418,7 +418,7 @@ public class EmployeeService {
     }
 }
 
-==================
+
 3. Feign Client:
 ==================
 - My provider(Same project/internal) is running in multiple servers/urls then we should go ahead Feign client. It uses the Load balancing to get the service name.
@@ -559,7 +559,7 @@ Ex: Beans, loggers, heap dump, thread dump, metrics, mappings etc....
 8. Check Zipkin server UI and click on Run Query button
 
 	It will display trace=id with details.
-=======================
+
 Load Balancing:
 ====================
 - If we run our application in one server then burden will be increased on that server.
