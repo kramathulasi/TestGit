@@ -1,0 +1,35 @@
+The SQL query to calculate second highest salary in database table name as Emp
+---------------------------------------------------------------------------------
+
+select min(salary) from   
+(select distinct salary from emp order by salary desc)   
+where rownum < 3;  
+  
+In order to calculate the second highest salary use rownum < 3  
+In order to calculate the third highest salary use rownum < 4  
+
+Sort the result reverse alphabetically by CustomerName, and return the first 3 records:
+-----------------------------------------------------------------------------------------
+MYSQL:
+------
+SELECT * FROM Customers
+ORDER BY CustomerName DESC
+LIMIT 3;
+
+Oracle:
+------
+SELECT * FROM Customers
+ORDER BY CustomerName DESC
+FETCH FIRST 3 ROWS ONLY;
+
+Group by
+----------------------------------------------------
+SELECT MIN(Price) AS SmallestPrice, CategoryID
+FROM Products
+GROUP BY CategoryID;
+
+Use the IN operator to select all the records where Country is either "Norway" or "France".
+=======================================================================================
+SELECT * FROM Customers
+WHERE Country IN('Norway','France');
+
