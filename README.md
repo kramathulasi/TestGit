@@ -24,8 +24,8 @@ Application can be developed in 2 ways
 
 2. Microservices Architecture
 
-1)  Monolithic Architecture: 
-============================
+Monolithic Architecture: 
+=======================
 It is a software design pattern where all components of a system are integrated into a single, unified Application.
 
 Challenges:
@@ -39,7 +39,7 @@ Challenges:
 - Scalability Issues
 
 
-2. Microservices Architecture:
+Microservices Architecture:
 ==============================
 - It is not a frameowrk, technology, language and API
 
