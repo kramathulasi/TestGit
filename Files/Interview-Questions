@@ -1,0 +1,24 @@
+      Angular
+=====================================
+Onpush detection strategy
+--------------------------
+import { Component, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
+
+@Component({
+  selector: 'my-component',
+  template: `<div>{{ data }}</div>`,
+  changeDetection: ChangeDetectionStrategy.OnPush // Apply OnPush
+})
+export class MyComponent {
+  data: string = '';
+
+  constructor(private cdr: ChangeDetectorRef) {}
+
+  updateData() {
+    this.fetchSomeData().subscribe(result => {
+      this.data = result;
+      this.cdr.markForCheck(); // Mark this component and its ancestors as dirty
+    });
+-------------------------------------
+How to restrict the multiple API requests
+-------------------------------------
