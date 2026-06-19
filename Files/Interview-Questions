@@ -22,3 +22,14 @@ export class MyComponent {
 -------------------------------------
 How to restrict the multiple API requests
 -------------------------------------
+typescriptngOnInit() {
+  forkJoin({
+    user: this.http.get('https://example.com'),
+    posts: this.http.get('https://example.com')
+  }).subscribe({
+    next: (result) => {
+      console.log('User Profile:', result.user);
+      console.log('User Posts:', result.posts);
+    }
+  });
+}
